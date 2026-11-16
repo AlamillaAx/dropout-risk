@@ -231,7 +231,7 @@ Open **http://localhost:9696/docs** and send a `POST /predict` request, or run `
 
 **Before submission:** verify that your Dockerfile copies only files that exist (at minimum `model.py`, `predict.py`, and `pipeline.bin`), installs production dependencies with `uv`, and starts Uvicorn on `0.0.0.0:9696`. Stop any locally running server on port 9696 before starting the container.
 
-## Deployment — AWS Lambda
+## 9. Deployment — AWS Lambda
 
 The Student Dropout Prediction API was deployed to AWS Lambda using a Docker container, Amazon Elastic Container Registry (ECR), and AWS Lambda Web Adapter.
 
